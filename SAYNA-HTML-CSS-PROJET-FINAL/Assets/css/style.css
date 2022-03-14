@@ -1,0 +1,150 @@
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #d35649;
+    align-items: center;
+  }
+  
+ nav li {
+    float: right;
+  }
+  
+ nav li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    color: #98a5a5;
+  }
+  .ev{
+      font-size: 25px;
+      font-weight: 600;
+      text-shadow:1px 1px 1px blue;
+  }
+  /* fin du menu */
+  /* ici commence le main */
+  .bg-img1{
+      background-image: url(../Images/group-1.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+  }
+ 
+      
+  
+  .box1{
+      padding: 5%;
+  }
+  .text-sh{
+      text-shadow: 2px 2px 2px black;
+  }
+  .radius{
+      border-radius: 3px;
+      border: none;
+  }
+  .bg-bt{
+      background-color: #d35649;
+      height: 30px;
+  }
+  .fo1{
+      font-size: 11px;
+  }
+  .fo2{
+      font-size: 15px;
+  }
+  .t-red{
+      color: #d35649;
+  }
+  .t-grey{
+      color: #98a5a5;
+  }
+  .bg-red{
+      background-color: #d35649;
+      background-size: auto;
+  }
+  .bg-grey{
+      background-color:#98a5a5 ;
+  }
+  .bg-blue{
+      background-color:#509bd7 ;
+  }
+  .h-img{
+      height: 200px;
+      width: 200px;
+      border-radius: 50%;
+  }
+  .p-ab{
+      position: absolute;
+      
+  }
+  .p-re{
+      position: relative;
+  }
+  .img-right{
+      top: 15px;
+  }
+  .img1{
+      top: 35px;
+      right: 20px;
+  }
+  /* main */
+  /* footer */
+  .bg-fter{
+      background-color: #1f1f1f;
+  }
+  .footer1 {
+    background-color: #1f1f1f;
+    width: 100%;
+    margin: 0;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+footer>div>div>div>a {
+    padding: 0 1%;
+}
+.btn.btn-outline-light:hover{
+    background-color: rgba(255, 255, 255, 0);
+}
+.btn.btn-outline-light>a:hover{
+    color: #98a5a5  !important;
+}
+
+.footer2 div.col{
+    padding:0%;
+}
+div.col i.fa-brands:hover{
+    color: #575a89;
+}
+
+.email:hover{
+    text-decoration: underline !important;
+}
+
+.learn_more:hover{
+    text-decoration: underline !important;
+}
+
+.footer2 {
+    background-color: #444;
+}
+.footer2>div>div>div>i{
+    cursor: pointer;
+}
+.footer2>div>div>div>i:hover{
+    color: #575a89 !important;
+}
+div>figure{
+    position: relative;
+    text-align: center;
+}
+figcaption{
+    position: absolute;
+    top: 2%;
+    left: 20%
+}
